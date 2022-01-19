@@ -11,6 +11,14 @@
 Test.prototype = {
     initialize: function() {
     },
+	
+	_bsLog: function(text) {
+		gs.info('test: ' + text);
+	},
+	
+	_anotherFunction: function() {
+		
+	},
 
     type: 'Test'
 };]]></script>
@@ -18,13 +26,13 @@ Test.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-19 13:42:22</sys_created_on>
         <sys_id>58cc63cb2f010110d81aad2ef699b6a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Test</sys_name>
         <sys_package display_value="Test GIT App" source="x_368810_test_git">0d09e7872f010110d81aad2ef699b61c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Test GIT App">0d09e7872f010110d81aad2ef699b61c</sys_scope>
         <sys_update_name>sys_script_include_58cc63cb2f010110d81aad2ef699b6a6</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-19 13:42:22</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2022-01-19 13:56:12</sys_updated_on>
     </sys_script_include>
 </record_update>
